@@ -37,7 +37,7 @@ namespace TesWeatherApi.Controllers
                 var alerts = JsonConvert.DeserializeObject<IEnumerable<WeatherAlert>>(responseBody);
 
                 // Return the collection of `WeatherAlert` objects to the client.
-                return Json(alerts);
+                return Ok(alerts);
             }
             else
             {
