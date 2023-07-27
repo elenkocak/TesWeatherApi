@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class WeatherController : ControllerBase
     {
-        string apiKey = "0K1QdzPWOKfdFEtuhLt7iJG5GfdLBc0P";
+       // string apiKey = "0K1QdzPWOKfdFEtuhLt7iJG5GfdLBc0P";
 
         [HttpGet("getlocationkey")]
         public IActionResult GetLocationKey(string apiKey,string city)
